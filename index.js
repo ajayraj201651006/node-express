@@ -23,7 +23,7 @@ app.get('/dishes', (req, res, next) => {
 
 app.post('/dishes', (req, res, next) => {
    res.end('Will add the dish: '+ req.body.name +
-   'with details: '+ req.body.description);
+   ' with details: '+ req.body.description);
 });
 
 app.put('/dishes',  (req, res, next) => {
